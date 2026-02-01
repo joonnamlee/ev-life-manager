@@ -4,10 +4,14 @@
 
 **전기차 배터리를 더 오래, 더 효율적으로 사용하는 스마트 솔루션**
 
+[![CI/CD](https://github.com/joonnamlee/ev-life-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/joonnamlee/ev-life-manager/actions/workflows/ci.yml)
+[![Tests](https://img.shields.io/badge/tests-22%20passed-brightgreen)](https://github.com/joonnamlee/ev-life-manager/actions)
+[![Python](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.109-green)](https://fastapi.tiangolo.com/)
+[![React Native](https://img.shields.io/badge/React_Native-0.72-blue)](https://reactnative.dev/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-blue)](https://www.postgresql.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangolo.com/)
-[![React Native](https://img.shields.io/badge/React_Native-0.72+-blue.svg)](https://reactnative.dev/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-blue.svg)](https://www.postgresql.org/)
+
 
 ---
 
@@ -120,7 +124,7 @@ Copy
 ### 1. 저장소 클론
 
 ```bash
-git clone https://github.com/your-username/ev-life-manager.git
+git clone https://github.com/joonnamlee/ev-life-manager.git
 cd ev-life-manager
 2. Backend 설정
 Copy# 가상환경 생성 및 활성화
