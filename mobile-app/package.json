@@ -1,0 +1,91 @@
+{
+  "name": "ev-life-manager-mobile",
+  "version": "1.0.0",
+  "description": "EV Life Manager - AI 기반 전기차 배터리 헬스케어 플랫폼",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.2",
+    "expo": "~50.0.0",
+    "expo-status-bar": "~1.11.1",
+    "react-native-safe-area-context": "4.8.2",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "react-native-screens": "~3.29.0",
+    "react-native-gesture-handler": "~2.14.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "react-redux": "^9.0.4",
+    "redux-persist": "^6.0.0",
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "axios": "^1.6.5",
+    "react-native-svg": "14.1.0",
+    "react-native-chart-kit": "^6.12.0",
+    "expo-linear-gradient": "~12.7.2",
+    "react-native-vector-icons": "^10.0.3",
+    "react-native-paper": "^5.11.6",
+    "expo-location": "~16.5.5",
+    "react-native-maps": "1.10.0",
+    "expo-notifications": "~0.27.6",
+    "expo-device": "~5.9.3",
+    "expo-constants": "~15.4.5",
+    "date-fns": "^3.0.6",
+    "react-native-reanimated": "~3.6.1",
+    "react-native-dotenv": "^3.4.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@types/react": "~18.2.45",
+    "@types/react-native": "~0.73.0",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3",
+    "jest": "^29.7.0",
+    "@testing-library/react-native": "^12.4.3",
+    "@testing-library/jest-native": "^5.4.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFilesAfterEnv": ["@testing-library/jest-native/extend-expect"],
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
+    ]
+  },
+  "private": true,
+  "author": "이준남 - (주)에스에이시스템",
+  "license": "MIT",
+  "keywords": [
+    "electric-vehicle",
+    "battery-management",
+    "ev",
+    "react-native",
+    "expo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ev-life-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/ev-life-manager/issues"
+  }
+}

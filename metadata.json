@@ -1,0 +1,44 @@
+{
+  "project_name": "EV 라이프 매니저",
+  "generated_at": "2026-02-01T21:46:41.830098",
+  "llm_provider": "claude-sonnet-4",
+  "optimization": "claude-only (code generation specialist)",
+  "total_modules": 5,
+  "modules": [
+    {
+      "type": "architecture",
+      "file_path": "architecture.py",
+      "language": "python",
+      "llm_provider": "claude-sonnet-4",
+      "code_size": 9068
+    },
+    {
+      "type": "backend",
+      "file_path": "backend/main.py",
+      "language": "python",
+      "llm_provider": "claude-sonnet-4",
+      "code_size": 11062
+    },
+    {
+      "type": "frontend",
+      "file_path": "frontend/screens/HomeScreen.js",
+      "language": "javascript",
+      "llm_provider": "claude-sonnet-4",
+      "code_size": 13334
+    },
+    {
+      "type": "database",
+      "file_path": "database/schema.sql",
+      "language": "sql",
+      "llm_provider": "claude-sonnet-4",
+      "code_size": 5106
+    },
+    {
+      "type": "tests",
+      "file_path": "tests/test_api.py",
+      "language": "python",
+      "llm_provider": "claude-sonnet-4",
+      "code_size": 11890
+    }
+  ]
+}
